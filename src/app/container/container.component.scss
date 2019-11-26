@@ -1,3 +1,6 @@
 .container {
-    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    font-family: --font-primary;
+    color: var(--color-grey-dark-2);
+    font-weight: 300;
+    line-height: 1.6;
 }

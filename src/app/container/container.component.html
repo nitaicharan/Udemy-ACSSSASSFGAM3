@@ -1,10 +1,11 @@
-<div gdRows="80vh min-content 40vw repeat(3, min-content)" class="container">
-    <app-sidebar></app-sidebar>
-    <app-header></app-header>
-    <app-realtors></app-realtors>
-    <app-features></app-features>
-    <app-story></app-story>
-    <app-homes></app-homes>
-    <app-gallery></app-gallery>
-    <app-footer></app-footer>
+<div gdColumns="[sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content,14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]"
+     gdRows=" 80vh min-content 40vw repeat(3, min-content)" class="container">
+    <app-sidebar gdColumn="sidebar-start / sidebar-end" gdRow="1 / -1"></app-sidebar>
+    <app-header gdColumn="full-start / col-end 6"></app-header>
+    <app-realtors gdColumn="col-start 7 / ful-end"></app-realtors>
+    <app-features gdColumn="center-start / center-end"></app-features>
+    <app-story gdColumn="full-start / full-end"></app-story>
+    <app-homes gdColumn="center-start / center-end"></app-homes>
+    <app-gallery gdColumn="full-start / full-end"></app-gallery>
+    <app-footer gdColumn="full-start / full-end"></app-footer>
 </div>
