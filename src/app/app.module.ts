@@ -14,6 +14,7 @@ import { StoryComponent } from './container/story/story.component';
 import { HomesComponent } from './container/homes/homes.component';
 import { GalleryComponent } from './container/gallery/gallery.component';
 import { FooterComponent } from './container/footer/footer.component';
+import { FeatureComponent } from './container/features/feature/feature.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './container/footer/footer.component';
     StoryComponent,
     HomesComponent,
     GalleryComponent,
-    FooterComponent
+    FooterComponent,
+    FeatureComponent
   ],
   imports: [
     BrowserModule,
