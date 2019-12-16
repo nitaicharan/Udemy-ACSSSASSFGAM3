@@ -1,3 +1,11 @@
-<section fxLayoutAlign="start" gdGap="6rem" gdColumns="repeat(auto-fit, minmax(25rem,1fr))" class="features">
-    <app-feature *ngFor="let item of items" title="{{item.title}}" description="{{item.description}}" imgpath="{{item.imgpath}}"></app-feature>
+<section
+            fxLayoutAlign="start"
+            gdGap="6rem"
+            gdColumns="repeat(auto-fit, minmax(25rem,1fr))"
+            class="features">
+    <app-feature
+        title="{{item.title}}"
+        description="{{item.description}}"
+        imgpath="{{item.imgpath}}"
+        *ngFor="let item of items"></app-feature>
 </section>

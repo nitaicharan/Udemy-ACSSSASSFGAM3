@@ -10,11 +10,12 @@ import { HeaderComponent } from './container/header/header.component';
 import { SidebarComponent } from './container/sidebar/sidebar.component';
 import { RealtorsComponent } from './container/realtors/realtors.component';
 import { FeaturesComponent } from './container/features/features.component';
-import { StoryComponent } from './container/story/story.component';
 import { HomesComponent } from './container/homes/homes.component';
 import { GalleryComponent } from './container/gallery/gallery.component';
 import { FooterComponent } from './container/footer/footer.component';
 import { FeatureComponent } from './container/features/feature/feature.component';
+import { StoryPicturesComponent } from './container/story-pictures/story-pictures.component';
+import { StoryContentComponent } from './container/story-content/story-content.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,12 @@ import { FeatureComponent } from './container/features/feature/feature.component
     SidebarComponent,
     RealtorsComponent,
     FeaturesComponent,
-    StoryComponent,
     HomesComponent,
     GalleryComponent,
     FooterComponent,
-    FeatureComponent
+    FeatureComponent,
+    StoryPicturesComponent,
+    StoryContentComponent
   ],
   imports: [
     BrowserModule,
