@@ -1,5 +1,19 @@
 .story {
+
     &__pictures {
         background-color: var(--color-primary);
+        background-image: linear-gradient(rgba(#c69963,.5),rgba(#c69963,.5)),url("../../../assets/img/back.jpg");
+        background-size: cover;
+    }
+
+    &__img--1 {
+        width: 100%;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+    }
+
+    &__img--2 {
+        width: 115%;
+        z-index:20;
+        box-shadow: 0 2rem 5rem rgba(#000, .2);
     }
 }
