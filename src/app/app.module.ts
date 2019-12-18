@@ -16,6 +16,7 @@ import { FooterComponent } from './container/footer/footer.component';
 import { FeatureComponent } from './container/features/feature/feature.component';
 import { StoryPicturesComponent } from './container/story-pictures/story-pictures.component';
 import { StoryContentComponent } from './container/story-content/story-content.component';
+import { HomeComponent } from './container/homes/home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StoryContentComponent } from './container/story-content/story-content.c
     FooterComponent,
     FeatureComponent,
     StoryPicturesComponent,
-    StoryContentComponent
+    StoryContentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
