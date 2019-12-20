@@ -1,32 +1,60 @@
-<div class="home">
-    <img class="home__img" src="../../../assets/img/house-1.jpeg" alt="House 1">
-    <svg class="home__like">
+<div
+        gdGap="3.5rem"
+        gdColumns="repeat(2,1fr)"
+        class="home">
+    <img
+        gdColumn="1/3"
+        gdRow="1/2"
+        class="home__img" src="{{path}}" alt="House 1">
+    <svg
+        gdGridAlign="end start"
+        gdColumn="2/3"
+        gdRow="1/2"
+        class="home__like">
         <use xlink:href="../../../assets/img/sprite.svg#icon-heart-full"></use>
     </svg>
-    <h5 class="home__name">Beatiful Family House</h5>
-    <div class="home__location">
+    <h5
+        gdRow="1/2"
+        gdGridAlign="center end"
+        gdColumn="1/-1"
+        class="home__name">{{name}}</h5>
+    <div
+        fxLayoutGap="1rem"
+        fxLayoutAlign="none center"
+        class="home__location">
         <svg>
             <use xlink:href="../../../assets/img/sprite.svg#icon-map-pin"></use>
         </svg>
-        <p>USA</p>
+        <p>{{location}}</p>
     </div>
-    <div class="home__rooms">
+    <div
+        fxLayoutGap="1rem"
+        fxLayoutAlign="none center"
+        class="home__rooms">
         <svg>
             <use xlink:href="../../../assets/img/sprite.svg#icon-profile-male"></use>
         </svg>
-        <p>5 rooms</p>
+        <p>{{rooms}} rooms</p>
     </div>
-    <div class="home__area">
+    <div
+        fxLayoutGap="1rem"
+        fxLayoutAlign="none center"
+        class="home__area">
         <svg>
             <use xlink:href="../../../assets/img/sprite.svg#icon-expand"></use>
         </svg>
-        <p>325 m<sup>2</sup></p>
+        <p>{{area}} m<sup>2</sup></p>
     </div>
-    <div class="home__price">
+    <div
+        fxLayoutGap="1rem"
+        fxLayoutAlign="none center"
+        class="home__price">
         <svg>
             <use xlink:href="../../../assets/img/sprite.svg#icon-key"></use>
         </svg>
-        <p>$1,200,000</p>
+        <p>${{price}}</p>
     </div>
-    <button class="cta">Contact realtor</button>
+    <button
+        gdColumn="1/-1"
+        class="btn home__btn">Contact realtor</button>
 </div>

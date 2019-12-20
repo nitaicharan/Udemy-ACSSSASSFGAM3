@@ -1,8 +1,11 @@
 <section fxFlex gdGap="7rem" gdColumns="repeat(auto-fit, minmax(25rem, 1fr))" class="homes">
-    <app-home></app-home>
-    <app-home></app-home>
-    <app-home></app-home>
-    <app-home></app-home>
-    <app-home></app-home>
-    <app-home></app-home>
+    <app-home
+        path={{item.path}}
+        name={{item.name}}
+        location={{item.location}}
+        rooms={{item.rooms}}
+        area={{item.area}}
+        price={{item.price}}
+        *ngFor="let item of items"
+        ></app-home>
 </section>

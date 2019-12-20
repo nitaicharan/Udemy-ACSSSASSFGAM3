@@ -3,28 +3,50 @@
 
     &__img {
         width: 100%;
+        z-index: 1;
     }
 
     &__like {
-
+        fill: var(--color-primary);
+        height: 2.5rem;
+        width:  2.5rem;
+        z-index: 2;
+        margin: 1rem;
     }
 
     &__name {
+        z-index: 3;
+        width: 80%;
+        font-family: var(--font-display);
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1.25rem;
+        background-color: var(--color-secondary);
+        color: #fff;
+        font-weight: 400;
+        transform: translateY(50%);
+    }
 
+    &__location
+    ,&__rooms {
+        margin-top: 2.5rem;
     }
 
     &__location
     ,&__rooms
     ,&__area
     ,&__price {
+
+        font-size: 1.5rem;
+        margin-left: 2rem;
+
         svg {
             fill: var(--color-primary);
             height: 2rem;
-            widows: 2rem;
+            width:  2rem;
         }
+    }
 
-        p  {
-
-        }
+    &__btn {
     }
 }
