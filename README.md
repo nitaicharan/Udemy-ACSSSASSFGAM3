@@ -10,7 +10,7 @@
 
 Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM3/
 
-![](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM3.gif?raw=true)
+![](Udemy-ACSSSASSFGAM3.png)
 
 ## Deploy
 ```
