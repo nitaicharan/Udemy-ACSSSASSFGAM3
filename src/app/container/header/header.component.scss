@@ -1,3 +1,35 @@
 .header {
     background-color: var(--color-grey-dark-1);
+    background-image: linear-gradient(rgba(#101d2c,.93), rgba(#101d2c,.93)), url(../../../assets/img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 8rem;
+    padding: 4rem;
+
+    &__logo {
+        height: 3rem;
+    }
+
+    &__btn {
+    }
+
+    &__seenon-text {
+        font-size: 1.6rem;
+        color: var(--color-grey-light-2);
+
+        &::before
+        ,&::after {
+            content: "";
+            height: 1px;
+            display: block;
+            background-color: currentColor;
+        }
+    }
+
+    &__seenon-logos {
+        img {
+            height: 2.5rem;
+            filter: brightness(70%);
+        }
+    }
 }
