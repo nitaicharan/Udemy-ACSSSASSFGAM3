@@ -1,3 +1,20 @@
 .realtors {
     background-color: var(--color-secondary);
+    padding: 3rem;
+
+    &__list {
+
+    }
+
+    &__img {
+        width: 7rem;
+        border-radius: 50%;
+        display: block;
+    }
+
+    &__sold {
+        text-transform: uppercase;
+        color: var(--color-grey-light-2);
+        margin-top: -3px;
+    }
 }
