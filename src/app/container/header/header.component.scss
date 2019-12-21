@@ -1,5 +1,7 @@
+@import "../../../assets/sass/_base.scss";
+
 .header {
-    background-color: var(--color-grey-dark-1);
+    background-color: $color-grey-dark-1;
     background-image: linear-gradient(rgba(#101d2c,.93), rgba(#101d2c,.93)), url(../../../assets/img/hero.jpeg);
     background-size: cover;
     background-position: center;
@@ -15,7 +17,7 @@
 
     &__seenon-text {
         font-size: 1.6rem;
-        color: var(--color-grey-light-2);
+        color: $color-grey-light-2;
 
         &::before
         ,&::after {
@@ -28,7 +30,8 @@
 
     &__seenon-logos {
         img {
-            height: 2.5rem;
+            max-height: 2.5rem;
+            max-width: 100%;
             filter: brightness(70%);
         }
     }

@@ -1,24 +1,28 @@
 // COLOR VARIABLES
-:root {
-    --color-primary: #c69963;
-    --color-primary-dark: #B28451;
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
 
-    --color-secondary: #101d2c;
+$color-secondary: #101d2c;
 
-    --color-grey-light-1: #f9f7f6;
-    --color-grey-light-2: #aaa;
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
 
-    --color-grey-dark-1: #54483A;
-    --color-grey-dark-2: #6D5D4B;
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
 
-    // FONT VARIABLES
-    --font-primary: 'Nunito', sans-serif;
-    --font-display: 'Josefin Sans', sans-serif;
-}
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
 
-*
-,*::before
-,*::after {
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;  // 1200px   lg
+$bp-large: 62.5em;  // 959px    md
+$bp-medium: 50em;   // 800px    sm
+$bp-small: 37.5em;  // 600px    xs
+
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -26,12 +30,16 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
 }
 
 body {
-    font-family: var(--font-primary);
-    color: var(--color-grey-dark-2);
+    font-family: $font-primary;
+    color: $color-grey-dark-2;
     font-weight: 300;
     line-height: 1.6;
 }

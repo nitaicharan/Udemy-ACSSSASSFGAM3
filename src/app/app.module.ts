@@ -17,6 +17,8 @@ import { FeatureComponent } from './container/features/feature/feature.component
 import { StoryPicturesComponent } from './container/story-pictures/story-pictures.component';
 import { StoryContentComponent } from './container/story-content/story-content.component';
 import { HomeComponent } from './container/homes/home/home.component';
+import { CustomBreakPointsProvider } from './custom-breakpoints.service';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -38,9 +40,10 @@ import { HomeComponent } from './container/homes/home/home.component';
     BrowserModule,
     AppRoutingModule,
     FlexModule,
+    FlexLayoutModule.withConfig({addOrientationBps: true}),
     GridModule
   ],
-  providers: [],
+  providers: [CustomBreakPointsProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

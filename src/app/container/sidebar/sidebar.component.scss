@@ -1,5 +1,7 @@
+@import "../../../assets/sass/_base.scss";
+
 .sidebar {
-    background-color: var(--color-primary);
+    background-color: $color-primary;
 }
 
 .nav-btn {
@@ -23,4 +25,9 @@
 
     &::before { transform: translateY(-1.5rem); }
     &::after { transform: translateY(1.3rem); }
+
+    @media only screen and (max-width: $bp-large) {
+        margin-top: 0;
+        margin-right: 3rem;
+    }
 }

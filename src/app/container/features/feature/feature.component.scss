@@ -1,6 +1,8 @@
+@import "../../../../assets/sass/_base.scss";
+
 .feature {
     &__icon {
-        fill: var(--color-primary);
+        fill: $color-primary;
         width: 4.5rem;
         height: 4.5rem;
         transform: translateY(-1rem);

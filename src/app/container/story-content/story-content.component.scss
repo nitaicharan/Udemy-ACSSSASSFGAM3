@@ -1,6 +1,8 @@
+@import "../../../assets/sass/_base.scss";
+
 .story {
     &__content {
-        background-color: var(--color-grey-light-1);
+        background-color: $color-grey-light-1;
         padding: 6rem 8vw;
     }
 

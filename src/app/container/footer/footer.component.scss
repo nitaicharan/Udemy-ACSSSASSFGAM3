@@ -1,5 +1,7 @@
+@import "../../../assets/sass/_base.scss";
+
 .footer {
-    background-color: var(--color-secondary);
+    background-color: $color-secondary;
     padding: 8rem;
 }
 
@@ -11,7 +13,7 @@
         font-size: 1.4rem;
         color: #fff;
         text-decoration: none;
-        font-family: var(--font-display);
+        font-family: $font-display;
         text-transform: uppercase;
         text-align: center;
         padding: 1.5rem;
@@ -28,7 +30,7 @@
 
 .copyright {
     font-size: 1.4rem;
-    color: var(--color-grey-light-2);
+    color: $color-grey-light-2;
     margin: 6rem;
     margin-right: auto;
     margin-left: auto;

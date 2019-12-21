@@ -2,8 +2,8 @@
            fxFlex
            gdGap="1.5rem"
            gdAlignRows="center"
-           gdColumns="max-content"
-           gdRows="1fr min-content 6rem 1fr"
+           gdColumns="minmax(min-content,max-content)"
+           gdRows="1fr min-content minmax(6rem,min-content) 1fr"
            class="header">
     <img
         gdGridAlign="center"
@@ -21,6 +21,7 @@
     <div
         gdGap="3rem"
         gdAlignRows="normal center"
+        gdAlignColumns="normal center"
         gdColumns="repeat(4,1fr)"
         class="header__seenon-logos">
         <img src="./assets/img/logo-bbc.png" alt="Seen on logo 1">

@@ -1,8 +1,10 @@
+@import "../../../assets/sass/_base.scss";
+
 .story {
 
     &__pictures {
-        background-color: var(--color-primary);
-        background-image: linear-gradient(rgba(#c69963,.5),rgba(#c69963,.5)),url("../../../assets/img/back.jpg");
+        background-color: $color-primary;
+        background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../../../assets/img/back.jpg);
         background-size: cover;
     }
 
