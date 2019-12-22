@@ -2,22 +2,22 @@ import {BREAKPOINT} from '@angular/flex-layout';
 
 const PRINT_BREAKPOINTS = [
     {
-        alias: 'lt',
+        alias: 'xl',
         mediaQuery: 'screen and (max-width: 1200px)',
         overlapping: true
     },
     {
-        alias: 'md',
+        alias: 'lg',
         mediaQuery: 'screen and (max-width: 1000px)',
         overlapping: true
     },
     {
-        alias: 'sm',
+        alias: 'md',
         mediaQuery: 'screen and (max-width: 800px)',
         overlapping: true
     },
     {
-        alias: 'xs',
+        alias: 'sm',
         mediaQuery: 'screen and (max-width: 600px)',
         overlapping: true
     }

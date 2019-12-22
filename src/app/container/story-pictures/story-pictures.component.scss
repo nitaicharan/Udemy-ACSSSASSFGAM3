@@ -6,6 +6,10 @@
         background-color: $color-primary;
         background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../../../assets/img/back.jpg);
         background-size: cover;
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 6rem;
+        }
     }
 
     &__img--1 {
@@ -15,7 +19,11 @@
 
     &__img--2 {
         width: 115%;
-        z-index:20;
+        z-index: 20;
         box-shadow: 0 2rem 5rem rgba(#000, .2);
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 100%;
+        }
     }
 }
